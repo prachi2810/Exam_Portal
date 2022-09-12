@@ -13,7 +13,6 @@ const questionRoute = require('./routes/question');
 const questionGroupRoute = require('./routes/question-group');
 const quizRoute = require('./routes/quiz');
 
-
 app.use(bodyParser.json());
 app.use(express.json())
 app.use(cookieParser())

@@ -49,6 +49,7 @@ describe('/Create Question', () => {
                 response.body.should.have.property('difficulty');
             done();
         })
+        
     })
 
     it('it should not post the question', (done) => {

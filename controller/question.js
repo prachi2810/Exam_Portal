@@ -64,7 +64,6 @@ const createQuestion = async (req, res, next) => {
             answer: req.body.answer,
             difficulty: req.body.difficulty
         });
-      
         try{
             const newQuestion = await question.save();
             res.status(201).json(newQuestion);

@@ -12,7 +12,7 @@ router.get('/',auth,getAllQuiz, async (req, res) => {
 })
 
 router.get('/:id',auth,getQuizById, getQuiz, async (req, res) => {
-    
+
 })
 
 router.put('/:id',auth,getQuizById, updateQuiz, async (req, res) => {

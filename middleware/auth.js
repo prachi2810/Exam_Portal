@@ -9,7 +9,6 @@ const auth=async (req,res,next)=>{
         const user=await register.findOne({_id:verifyUser._id})
         req.token=token;
         req.verifyUser=verifyUser;
-        
         next();
     
     }catch(error){

@@ -77,7 +77,6 @@ describe('/exam-portal/user/authenticate',()=>{
        })
     })
  
-
 })
 
 describe('/exam-portal/user/logout',()=>{
