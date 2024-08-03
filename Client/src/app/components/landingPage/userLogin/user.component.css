@@ -1,0 +1,107 @@
+body {
+  width: 100%;
+}
+
+.zen-info {
+  height: 100vh;
+  padding: 4%;
+}
+
+.login-wrap {
+  padding: 5%;
+  width: 60%;
+}
+
+.signup-wrap {
+  padding: 4%;
+  width: 75%;
+}
+
+.login-btn {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px;
+}
+
+.log-sec {
+  background-color: var(--main-color);
+  height: 100vh;
+}
+
+.sign-sec {
+  background-color: var(--main-color);
+  height: 100vh;
+}
+
+.signup {
+  display: flex;
+  float: right;
+  font-weight: 700;
+  border: none;
+  background: white;
+  padding: 1% 4%;
+  border-radius: 5px;
+}
+
+.head {
+  color: white;
+}
+
+.form-item input {
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  border: solid 2px #ccc;
+  border-radius: 5px;
+  padding: 0 15px
+}
+
+.form-item input:focus {
+  border-color: white;
+}
+
+.inputField, ::placeholder {
+  color: white;
+}
+
+.inp {
+  color: black !important;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .form-item input {
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: solid 2px #ccc;
+    border-radius: 5px;
+    padding: 0 15px
+  }
+
+  .img-intro {
+    width: 100px;
+  }
+
+  .zen-info {
+    height: 40vh;
+    padding: 4%;
+  }
+
+  .login-wrap, .signup-wrap {
+    width: 80%;
+  }
+
+  .log-sec {
+    height: 60vh;
+  }
+
+  .sign-sec {
+    height: 120vh;
+  }
+}

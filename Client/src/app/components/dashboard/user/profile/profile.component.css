@@ -1,0 +1,27 @@
+.content {
+    height: 100vh;
+}
+
+.card {
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}
+
+.bg {
+    background-color: var(--main-color);
+    padding: 20px 0;
+    border-radius: 10px 10px 10px 10px;
+    color: #fff;
+}
+
+.b-b-default {
+    /* border-bottom: 1px solid #e0e0e0; */
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 0rem;
+}
